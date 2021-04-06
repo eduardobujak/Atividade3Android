@@ -52,12 +52,12 @@ public class AlbumsAdapter extends RecyclerView.Adapter<AlbumsAdapter.TodoViewHo
             TextView tv;
             tv = holder.viewAlbums.findViewById(R.id.tvUserId);
             tv.setText(obj.getUserId()+"");
-            tv = holder.viewAlbums.findViewById(R.id.tvId);
-            tv.setText(obj.getId()+"");
+           // tv = holder.viewAlbums.findViewById(R.id.tvId);
+           // tv.setText(obj.getId()+"");
             tv = holder.viewAlbums.findViewById(R.id.tvTitle);
             tv.setText(obj.getTitle()+"");
 
-            
+
             if (layout == R.layout.layout_user) {
                 tv = holder.viewAlbums.findViewById(R.id.tvUserId);
                 tv = holder.viewAlbums.findViewById(R.id.tvId);

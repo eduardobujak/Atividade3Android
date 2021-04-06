@@ -15,14 +15,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Atividade03">
-        <activity android:name=".DetalheAlbumsActivity"></activity>
-        <activity android:name=".PrimeiraActivity">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".DetalheCommentsActivity"></activity>
+        <activity android:name=".ActivityComments" />
+        <activity android:name=".ActivityMenu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-         </activity>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DetalhePostsActivity" />
+        <activity android:name=".PostsActivity" />
+        <activity android:name=".DetalheAlbumsActivity" />
+        <activity android:name=".PrimeiraActivity" />
     </application>
 
 </manifest>

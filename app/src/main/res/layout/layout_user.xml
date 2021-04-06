@@ -27,14 +27,6 @@
                 android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/tvId"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Id"
-                android:textSize="18sp"
-                android:textStyle="bold" />
-
-            <TextView
                 android:id="@+id/tvTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
